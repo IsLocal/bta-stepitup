@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "local.stepitup.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityMixin"
+  ],
+  "client": [
+    "MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
